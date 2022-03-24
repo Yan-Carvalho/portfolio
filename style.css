@@ -125,7 +125,7 @@ body{
     font-size: 24px;
     color:  var(--black);
 }
-.main .topbar .themeSwitch{
+div[class="themeSwitch"]{
     display: none;
 }
 section{
