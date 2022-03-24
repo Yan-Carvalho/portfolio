@@ -125,6 +125,9 @@ body{
     font-size: 24px;
     color:  var(--black);
 }
+.main .topbar .themeSwitch{
+    display: none;
+}
 section{
     position: relative;
     min-height: 100vh;
@@ -597,6 +600,10 @@ p{
 @media  screen and (max-width: 767px){
     .main .topbar .toggle{
        display: none;
+    }
+    .main .topbar .themeSwitch{
+        display: flex;
+        left: 50%;
     }
     .services .content{
         grid-template-columns: repeat(1,1fr);
