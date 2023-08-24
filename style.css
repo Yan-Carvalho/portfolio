@@ -429,11 +429,11 @@ p{
     border: none;
     overflow: hidden;
     transition: 0.2s;
-    cursor: pointer;
 } 
 .contact .contactForm .row2 button:hover{
     transition: 0.5s;
     background: #F03E50;
+    cursor: pointer;
 }
 
 /* Dark buttons */
